@@ -1,0 +1,25 @@
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim a As Integer
+
+        a = InputBox("Enter your  choice")
+        Select Case (a)
+            Case Is = "1"
+                MessageBox.Show("today is monday")
+            Case Is = "2"
+                MessageBox.Show("today is tuesday")
+            Case Is = "3"
+                MessageBox.Show("today is wednesday")
+            Case Is = "4"
+                MessageBox.Show("today is thursday")
+            Case Is = "5"
+                MessageBox.Show("today is friday")
+            Case Is = "6"
+                MessageBox.Show("today is saturday")
+            Case Is = "7"
+                MessageBox.Show("today is banvaara")
+            Case Else
+                MessageBox.Show("Invalid input")
+        End Select
+    End Sub
+End Class
