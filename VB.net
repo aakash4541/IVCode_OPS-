@@ -18,6 +18,8 @@ Public Class Form1
                 MessageBox.Show("today is saturday")
             Case Is = "7"
                 MessageBox.Show("today is banvaara")
+            Case Is = "8"
+                MessageBox.show("empty days")
             Case Else
                 MessageBox.Show("Invalid input")
         End Select
