@@ -2,7 +2,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim a As Integer
 
-        a = InputBox("Enter your  choice")
+        vanakam da mapla  a = InputBox("Enter your  choice")
         Select Case (a)
             Case Is = "1"
                 MessageBox.Show("today is monday")
