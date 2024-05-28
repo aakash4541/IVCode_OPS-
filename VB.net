@@ -21,7 +21,7 @@ Public Class Form1
             Case Is = "8"
                 MessageBox.show("empty days")
             Case Else
-                MessageBox.Show("Invalid input")
+                MessageBox.Show("Invalid ")
         End Select
     End Sub
 End Class
